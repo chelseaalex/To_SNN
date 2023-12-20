@@ -13,7 +13,8 @@ cfgs = [
                  growth_rate=12, block_config=(8, 12, 16), compression=0.5,
                  num_init_features=24, bn_size=4, drop_rate=0,
                  num_classes=10, small_inputs=False, efficient=False
-3.resnet使用参数为
+
+   3.resnet使用参数为
 	resnet34，block设置为[3, 4, 6, 3]
 
 所有实验的优化器均为torch.optim.SGD
