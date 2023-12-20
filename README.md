@@ -15,6 +15,7 @@ cfgs = [
                  num_classes=10, small_inputs=False, efficient=False
 3.resnet使用参数为
 	resnet34，block设置为[3, 4, 6, 3]
+
 所有实验的优化器均为torch.optim.SGD
 损失函数均为CrossEntropyLoss
 batch-size均为128，初始学习率为0.01
