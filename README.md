@@ -23,6 +23,6 @@ batch-size均为128，初始学习率为0.01
 
 #商汇川：实现了ann转snn后在coco的目标检测任务
 
-#董一航：训练了VIT_16架构并进行了转化与效果比较，但是个人训练的VIT_16的ACC过低，于是下载了对应的预训练权重，转化为了VIT_SNN并与原VIT进行了比较；对Unet图像生成进行convert转换成SNN
+#董一航：训练了VIT_16架构并进行了转化与效果比较，但是个人训练的VIT_16的ACC过低，于是下载了对应的预训练权重，转化为了VIT_SNN并与原VIT进行了比较；训练Unet图像生成模型，并进行convert转换为SNN；初步训练resNet34，并进行convert转换为SNN
 
 #杜保汛：使用MAE训练cifar10后转snn进行测试
