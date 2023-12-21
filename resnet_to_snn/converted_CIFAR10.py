@@ -24,7 +24,7 @@ import argparse
 
 
 parser = argparse.ArgumentParser(description='Conversion')
-parser.add_argument('--T', default=6000, type=int, help='simulation time')
+parser.add_argument('--T', default=64, type=int, help='simulation time')
 parser.add_argument('--p', default=0.99, type=float, help='percentile for data normalization. 0-1')
 parser.add_argument('--gamma', default=5, type=int, help='burst spike and max spikes IF can emit')
 parser.add_argument('--channelnorm', default=False, type=bool, help='use channel norm')
@@ -36,8 +36,8 @@ parser.add_argument('--cuda', default=True, type=bool, help='use cuda.')
 parser.add_argument('--model_name', default='vgg16', type=str, help='model name. vgg16 or resnet20')
 parser.add_argument('--merge', default=True, type=bool, help='merge conv and bn')
 parser.add_argument('--train_batch', default=100, type=int, help='batch size for get max')
-parser.add_argument('--batch_num', default=10, type=int, help='number of train batch')
-parser.add_argument('--batch_size', default=5096, type=int, help='batch size for testing')
+parser.add_argument('--batch_num', default=1, type=int, help='number of train batch')
+parser.add_argument('--batch_size', default=128, type=int, help='batch size for testing')
 parser.add_argument('--seed', default=42, type=int, help='seed')
 args = parser.parse_args()
 
