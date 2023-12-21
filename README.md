@@ -19,11 +19,16 @@ cfgs = [
 
 所有实验的优化器均为torch.optim.SGD
 损失函数均为CrossEntropyLoss
-batch-size均为128，初始学习率为0.01
+batch-size均为128，初始学习率为0.01,具体代码在ann_convert_to_snn里，详情可以见该文件夹里的readme
+   结论也写在了那个readme里
 
+
+   
 #商汇川：实现了ann转snn后在coco的目标检测任务
 
 #董一航：训练了VIT_16架构并进行了转化与效果比较，但是个人训练的VIT_16的ACC过低，于是下载了对应的预训练权重，转化为了VIT_SNN并与原VIT进行了比较；训练Unet图像生成模型，并进行convert转换为SNN；初步训练resNet34，并进行convert转换为SNN
+
 #吴圣栋：实现了resnet上的ann转换成snn，使用参数为resnet18，block设置为[2，2，2，2]
+
 #杜保汛：使用MAE训练cifar10后转snn进行测试
 
