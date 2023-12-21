@@ -1,4 +1,4 @@
-<img width="1447" alt="9ce4bae71ef0355754788f8e1ea41a1" src="https://github.com/chelseaalex/anyi/assets/71577910/bf81d598-367a-413d-b6aa-d63beb34162f">#目前安弈，杜保汛，董一航，吴圣栋，商汇川均已实现vgg的转换以及调优,
+#目前安弈，杜保汛，董一航，吴圣栋，商汇川均已实现vgg的转换以及调优,
 
 #安弈：实验了在vit，densenet，efficientnet，resnet上的ann转换成snn并且比较效果,
 1. 对于efficientnet使用网络参数为
